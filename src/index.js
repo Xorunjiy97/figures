@@ -63,6 +63,9 @@
 
 // showFreeSquareFigure(5);
 
+
+
+
 // function sandClock(n) {
 // 	let result = ""
 // 	for (let i = 1; i <= n; i++) {
@@ -88,33 +91,7 @@
 // 		 result = "";
 // 	}
 // }
-freeSandClock(7);
-function sandClock(n) {
-	let result = ""
-	for (let i = 1; i <= n; i++) {
-		 for (let k = 1; k < i; k++) {
-			  result += "  ";
-		 }
-		 for (let j = i; j <= n; j++) {
-			 result += " *  ";
-		 }
-		 console.log(result);
-		 result = "";
-		}
-		
-
-	for (let i = n - 1; i >= 1; i--) {
-		 for (let k = 1; k < i; k++) {
-			  result += "  ";
-		 }
-		 for (let j = i; j <= n; j++) {
-			  result += " *  ";
-		 }
-		 console.log(result)
-		 result = "";
-	}
-}
-freeSandClock(7);
+// sandClock(7);
 
 
 
